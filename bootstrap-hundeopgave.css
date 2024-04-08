@@ -1,0 +1,25 @@
+.btn-primary{
+    background-color: red;
+    border: pink;
+}
+
+.header-foto{
+    padding-bottom: 50px;
+}
+.header-foto-desktop{
+    padding-bottom: 50px;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .header-foto {
+      display: none;
+    }
+  }
+
+@media only screen and (max-width: 1200px) {
+    .header-foto-desktop {
+      display: none;
+    }
+  }
